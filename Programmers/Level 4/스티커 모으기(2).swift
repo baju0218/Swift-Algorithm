@@ -29,6 +29,3 @@ func solution(_ sticker:[Int]) -> Int{
     
     return max(dp1(1), arr[0] + dp2(2))
 }
-
-
-print(solution([14, 6, 5, 11, 3, 9, 2, 10]))
